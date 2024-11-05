@@ -6,19 +6,19 @@
 
 ## Environment Variables
 
-    - Backend:
+Backend:
         PUSHER_APP_ID=id
         PUSHER_KEY=key
         PUSHER_SECRET=secret
         PUSHER_CLUSTER=cluster
-    - Frontend:
+Frontend:
         REACT_APP_PUSHER_KEY=key
         REACT_APP_PUSHER_CLUSTER=cluster
         REACT_APP_API=api
 
 ## Config
 
-    - Frontend:
+Frontend:
 
         ```bash
         npm install
@@ -26,13 +26,13 @@
 
 ## Run
 
-    - Backend:
+Backend:
 
         ```bash
         go run main.go
         ```
 
-    - Frontend:
+Frontend:
 
         ```bash
         npm start
